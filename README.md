@@ -8,7 +8,7 @@
 
 A maintainable, CI-ready web UI automation framework built with **Java, Selenium WebDriver 4 and TestNG**, using the **Page Object Model**. It automates the core e-commerce journey of [SauceDemo](https://www.saucedemo.com/) — login, add to cart, checkout and order confirmation — plus data-driven negative login coverage.
 
-> Built by a QA Team Lead with 6 years of manual, API and database testing. The design goal: every automated check should read like the manual test case it replaces.
+> Built by  Aishwarya Anil QA Lead with 6 years of manual, API and database testing. The design goal: every automated check should read like the manual test case it replaces.
 
 ---
 
