@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- Fast post-deployment sanity: only tests tagged "smoke". -->
+<suite name="SauceDemo Smoke">
+    <test name="Smoke">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qa.framework.tests.LoginTest"/>
+            <class name="com.qa.framework.tests.CheckoutTest"/>
+        </classes>
+    </test>
+</suite>
